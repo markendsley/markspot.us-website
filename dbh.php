@@ -1,7 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect('localhost','root','','login');
+$conn = mysqli_connect('***','***','','***');
 
 if(!$conn)
 {
