@@ -1,0 +1,197 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	margin-left: 15px;
+	margin-right: 15px;
+	color:gold;
+	font-family:Ubuntu;
+	text-align: center;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+}
+
+li {
+    float: left;
+}
+
+@media only screen and (max-width: 720px){
+li {float:center;
+}}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffff00;
+}
+div.border{
+	border:7px solid gold;
+	border-radius: 6px;
+	background-color:gold;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+img.scalable {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+div.bordertwo{
+	border:7px solid gold;
+	border-radius: 6px;
+	background-color:#d6d6d6;
+	color:black;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+p.marged{
+	margin-left: 340px;
+	margin-right: 340px;
+}
+img.flick:hover {
+	-webkit-filter: brightness(150%); 
+	}
+	
+h1{font-family:Ubuntu;
+}
+
+h2{font-family:Ubuntu;
+}
+h3{font-family:Ubuntu;
+}
+div.newsbox{
+	text-align:left;
+	width:700px;
+	border:7px solid gold;
+	border-radius: 6px;
+	padding: 6px 6px;
+}
+div.textbox{
+	text-align:left;
+	width:700px;
+	border-radius: 6px;
+	padding: 6px 6px;
+}
+div.itembox{
+	
+	width:700px;
+	border:7px solid white;
+	border-radius: 6px;
+	padding: 6px 6px;
+	background-color: white;
+}
+
+body { margin: 0; }
+
+div.phpheader{
+
+	background-color:#d6d6d6;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color:black;
+	
+}
+
+
+
+.button {
+    background-color: gold;
+    border: 3px solid #d6d6d6;
+	border-radius: 6px;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.button2 {
+    background-color: gold;
+	border-radius: 6px;
+	border: 0px solid gold;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+.button:hover {
+    background-color: #eeff84;
+   
+}
+
+.button2:hover {
+    background-color: #eeff84;
+   
+}
+
+
+.textbox {
+    height: 30px;
+    border: 3px solid gold;
+    border-radius: 6px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    width: 270px;
+}
+ .textbox:focus {
+    border-color: #eeff84;
+    outline: none;
+}
+
+textarea.styled{
+	
+	border-radius: 6px;
+	border: 3px solid gold;
+	margin: auto;
+	width: 60%;
+	
+	
+}
+ textarea.styled:focus {
+    border-color: #eeff84;
+    outline: none;
+}
+div.commentsbox{
+	text-align:left;
+	width:700px;
+	border:7px solid white;
+	border-radius: 6px;
+	padding: 6px 6px;
+	background-color: white;
+	color: black !important;
+	width: 80%;
+	margin: auto;
+}

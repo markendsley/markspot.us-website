@@ -1,0 +1,15 @@
+CREATE TABLE comments
+( 
+	cid INT NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY (cid),
+	id INT NOT NULL,
+	uid VARCHAR(255) NOT NULL,
+	date DATETIME,
+	message TINYTEXT NOT NULL,
+	FOREIGN KEY (id) REFERENCES userdata(id)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+INSERT INTO comments (uid, date, message)
+	VALUES ("markendsley", CURRENT_TIMESTAMP, "Hello");

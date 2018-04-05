@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			Markspot.us
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			function evalSlider()
+			{
+				var sliderValue = document.getElementById('number').value;
+				document.getElementById('sliderVal').innerHTML = sliderValue;
+			}
+			function csvValue()
+			{
+				var csvValue = document.getElementById('csv').value
+				document.getElementById('csvVal').innerHTML = csvValue;
+			}
+		</script>
+	</head>
+	<body>
+	
+	
+		<!-- HEADER OF WEBSITE -->
+	
+	
+
+		<!-- HEADER ENDS -->
+		<br/>
+		<div class="bordertwo">
+		<!-- STUFF GOES IN HERE -->
+
+		<img src="paybuddy.png" alt="Paybuddy logo">
+		<br/>
+		<center>
+		<div class="newsbox">
+		
+		<h1>Payment</h1>
+		<br/>
+		
+		Credit Card Number
+		
+		<form action="#" method="post">
+		
+		<input type="range" id="number" min="0000000000000000" max="9999999999999999" onchange="evalSlider()"/><output id="sliderVal"></output>
+		<br/>
+		<br/>
+		<br/>
+		CSV
+		<br/>
+		
+		<input type="range" id="csv" min="000" max="999" onchange="csvValue()"/><output id="csvVal"></output>
+		
+		<br/>
+		<br/>
+		<input type="submit" name="submit" value="submit">
+		
+		</form>
+		</div>
+		</center>
+		<br/>
+		<br/>
+		<br/>
+	
+		<!-- STUFF STOPS HERE -->
+		</div>
+		<font size="2"><center><br/><br/>Markspot Website<br/>Thank you for visiting my website | Site by Mark Endsley</center></font>
+	
+	
+	</body>
+</html>

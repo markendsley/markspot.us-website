@@ -1,0 +1,87 @@
+body{
+	background-color: black;
+	margin-left: 15px;
+	margin-right: 15px;
+	color:gold;
+	font-family:Ubuntu;
+	text-align: center;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffff00;
+}
+div.border{
+	border:7px solid gold;
+	border-radius: 6px;
+	background-color:gold;
+}
+img.scalable {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+div.bordertwo{
+	border:7px solid gold;
+	border-radius: 6px;
+	background-color:#d6d6d6;
+	color:black;
+}
+p.marged{
+	margin-left: 340px;
+	margin-right: 340px;
+}
+img.flick:hover {
+	-webkit-filter: brightness(150%); 
+	}
+	
+h1{font-family:Ubuntu;
+}
+
+h2{font-family:Ubuntu;
+}
+h3{font-family:Ubuntu;
+}
+div.newsbox{
+	text-align:left;
+	width:700px;
+	border:7px solid gold;
+	border-radius: 6px;
+	padding: 6px 6px;
+}
+div.textbox{
+	text-align:left;
+	width:700px;
+	border-radius: 6px;
+	padding: 6px 6px;
+}
+div.itembox{
+	
+	width:700px;
+	border:7px solid white;
+	border-radius: 6px;
+	padding: 6px 6px;
+	background-color: white;
+}
